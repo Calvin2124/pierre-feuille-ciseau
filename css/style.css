@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+:root{
+    --color1: #ABD1B4;
+    --color2: #FFF;
+    --font: 'Lato', sans-serif;
+}
+
+main{
+    background-image: url(/img/1baa3845cf5aac06605a67a5694c5752.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+}
+
+#menu{
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+}
+
+main section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    flex-direction: column;
+}
+
+h1{
+    color: var(--color2);
+    font-family: var(--font);
+    font-size: 172px;
+    font-weight: 900;
+    text-align: left;
+}
+
+body > main > section > h2:nth-child(2){
+    font-family: var(--font);
+    color: #FFF;
+    font-size: 127px;
+    font-weight: 300;
+    text-align: left;
+    margin: -45px;
+}
+body > main > section > h2:nth-child(3){
+    font-family: var(--font);
+    color: var(--color2);
+    font-size: 127px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+section a{
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    color: var(--color2);
+    border: 1px solid var(--color1);
+    background-color: var(--color1);
+    padding: 23px 75px;
+    border-radius: 30px;
+    transition: all 0.3s;
+
+}
+
+section a:hover{
+    background-color: var(--color2);
+    color: var(--color1);
+    border: 1px solid var(--color2);
+    transition: all 0.3s;
+}
